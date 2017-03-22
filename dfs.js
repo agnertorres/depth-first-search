@@ -40,9 +40,9 @@ var depthFirstSearch = function depthFirstSearch(matrix, start, destiny) {
           viewed.push(i);
 
           return {
-            visitados: viewed,
-            inicio: start,
-            destino: destiny
+            viewed: viewed,
+            start: start,
+            destiny: destiny
           };
 
         } else {
